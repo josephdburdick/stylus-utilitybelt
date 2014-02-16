@@ -1,0 +1,413 @@
+/* ————————————
+ * Imports
+*/
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important;
+  }
+  .visible-lg-inline {
+    display: inline !important;
+  }
+  .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block !important;
+  }
+  .visible-md-inline {
+    display: inline !important;
+  }
+  .visible-md-inline-block {
+    display: inline-block !important;
+  }
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block !important;
+  }
+  .visible-sm-inline {
+    display: inline !important;
+  }
+  .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  .visible-xs-inline {
+    display: inline !important;
+  }
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-lt-lg {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-lt-lg {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-lt-lg {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-lt-md {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-lt-md {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-lt-sm {
+    display: block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-lt-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-lt-lg {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-lt-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-lt-md {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-lt-md {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-lt-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-gt-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-gt-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-gt-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-gt-sm {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-gt-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-gt-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-gt-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-gt-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-gt-md {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-md-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-gt-sm {
+    display: block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-gt-sm {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-gt-sm {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-gt-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-gt-sm-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-gt-sm-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-gt-sm-inline {
+    display: inline !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-gt-sm-inline {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-gt-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-gt-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-gt-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-gt-sm-inline-block {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-gt-xs {
+    display: block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-gt-xs {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-gt-xs {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-gt-xs-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-gt-xs-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-gt-xs-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-gt-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-gt-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-gt-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+body:after {
+  padding: 5px 20px;
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  background: #000;
+  color: #fff;
+}
+@media (min-width: 1200px) {
+  body:after {
+    content: 'lg';
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body:after {
+    content: 'md';
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body:after {
+    content: 'sm';
+  }
+}
+@media (max-width: 767px) {
+  body:after {
+    content: 'xs';
+  }
+}
+@import url("http://fonts.googleapis.com/css?family=VarelaRound");
+/* ————————————————————————
+ * Example One: 
+ * Retina-friendly Sprite
+*/
+html {
+  font-family: 'Varela Round', sans-serif;
+}
+.sprite {
+  width: 100px;
+  height: 50px;
+  background-image: 'ui-sprite.png';
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx) {
+  .sprite {
+    background-image: 'ui-sprite@2x.png';
+    background-size: 100px 50px;
+  }
+}
+.sprite.appstore {
+  height: 47px;
+  background-position: 0 -104px;
+}
+.sprite.appstore.apple {
+  width: 158px;
+  margin-right: 10px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx) {
+  .sprite.appstore.apple {
+    background-position: 0 -208px;
+  }
+}
+.sprite.appstore.google {
+  width: 143px;
+  background-position: -167px -104px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx) {
+  .sprite.appstore.google {
+    background-position: -334px -208px;
+  }
+}
+/* ————————————————————————
+ * Example Two: 
+ * Shorthand breakpoints
+*/
+.example {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: #fff;
+}
+@media (min-width: 1200px) {
+  .example {
+    background: #800080;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .example {
+    background: #f00;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .example {
+    background: #ff0;
+  }
+}
+@media (max-width: 767px) {
+  .example {
+    background: #008000;
+  }
+}
+.example .child {
+  line-height: 400px;
+  color: #ccc;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+  border-radius: 999px;
+}
+@media (min-width: 1119px) {
+  .example .child {
+    background: #00f;
+  }
+}
+@media (max-width: 1199px) {
+  .example .child {
+    background: #ffa500;
+  }
+}
+@media (max-width: 991px) {
+  .example .child {
+    background: #008000;
+  }
+}
+@media (max-width: 767px) {
+  .example .child {
+    background: #ff0;
+  }
+}

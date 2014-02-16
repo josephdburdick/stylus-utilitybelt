@@ -1,0 +1,119 @@
+/* ————————————
+ * Imports
+*/
+// Required partials
+@import '_mediaqueries'
+@import '_visibility_helpers'
+
+// Optional Breakpoint visual aid, remove for Production
+@import '_breakpoint_inspector'
+
+
+// Load font for presentation purposes.
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
+/* ————————————————————————
+ * Example One: 
+ * Retina-friendly Sprite
+*/
+
+html
+  font-family: 'Varela Round', sans-serif
+
+
+
+// Retina ready
+.sprite
+  $w = 100px
+  $h = 50px
+  width : $w
+  height: $h
+  background-image: 'ui-sprite.png'
+
+  @media retina
+    background-image: 'ui-sprite@2x.png'
+    background-size: $w $h
+
+  // Let's say you have icons for an app store.
+  // In the markup you'd just say <div class="sprite apple"> 
+  // and the appropriate image would show.
+  &.appstore
+    $y = -104px
+    height: 47px
+    background-position: 0 $y
+    &.apple  // == .appstore.apple
+      width       : 158px
+      margin-right: 10px
+      @media retina
+        background-position: 0 ($y*2)
+    &.google // == .appstore.google
+      $x    = -167px
+      width : 143px
+      background-position: $x $y
+      @media retina
+        background-position: ($x * 2) ($y * 2)
+
+
+/* ————————————————————————
+ * Example Two: 
+ * Shorthand breakpoints
+*/
+
+.example
+  position  : fixed
+  top       : 0
+  bottom    : 0
+  left      : 0
+  right     : 0
+  text-align: center
+  background: white
+  
+  // Target large resolutions specifically
+  @media lg  
+    background: purple
+
+  // Target medium resolutions specifically
+  @media md  
+    background: red
+  
+  // Target small resolutions specifically
+  @media sm
+    background: yellow
+
+  // Target extra small resolution specifically
+  @media xs 
+    background: green
+
+
+  .child
+    line-height: 400px
+    color      : #ccc
+    position   : fixed
+    width      : 400px
+    height     : 400px
+    top        : 50%
+    left       : 50%
+    margin     : -200px 0 0 -200px
+    border-radius: 999px
+    
+
+    // Target greater than medium resolutions, grabs large resolution
+    @media gt-md  
+      background: blue
+
+    // Target lower than medium resolutions, grabs all resolutions below medium (sm and xs)
+    @media lt-md  
+      background: orange
+
+    // Target lower than small resolution, grabs just xs resolution
+    @media lt-sm  
+      background: green
+
+    @media xs
+      background: yellow
+    
+    
+
+
+    

@@ -1,0 +1,174 @@
+/* Visibility Helpers */
+
+@media lg
+  // Visible
+  .visible-lg 
+    display: block !important
+  .visible-lg-inline 
+    display: inline !important
+  .visible-lg-inline-block 
+    display: inline-block !important
+  
+  // Hidden
+  .hidden-lg 
+    display: none !important
+@media md
+  .visible-md 
+    display: block !important
+  .visible-md-inline 
+    display: inline !important
+  .visible-md-inline-block 
+    display: inline-block !important
+
+  .hidden-md 
+    display: none !important
+@media sm
+  // Visible
+  .visible-sm 
+    display: block !important
+  .visible-sm-inline 
+    display: inline !important
+  .visible-sm-inline-block 
+    display: inline-block !important
+  
+  // Hidden
+  .hidden-sm 
+    display: none !important
+
+@media xs
+  // Visible
+  .visible-xs
+    display: block !important
+  .visible-xs-inline 
+    display: inline !important
+  .visible-xs-inline-block 
+    display: inline-block !important
+  // Hidden
+  .hidden-xs
+    display: none !important
+
+
+// Visible lower than [breakpoint]
+.visible-lt-lg
+  @media md 
+    display: block !important
+  @media sm
+    display: block !important
+  @media xs 
+    display: block !important
+.visible-lt-md 
+  @media sm
+    display: block !important
+  @media xs 
+    display: block !important
+.visible-lt-sm 
+  @media xs 
+    display: block !important
+
+// Hidden lower than [breakpoint]
+.hidden-lt-lg 
+  @media md 
+    display: none !important
+  @media sm
+    display: none !important
+  @media xs 
+    display: none !important
+
+.hidden-lt-md 
+  @media sm
+    display: none !important
+  @media xs 
+    display: none !important
+
+.hidden-lt-sm 
+  @media xs 
+    display: none !important
+
+
+// Hidden greater than [breakpoint]
+.hidden-gt-md 
+  @media lg
+    display: none !important
+
+.hidden-gt-sm 
+  @media lg
+    display: none !important
+  @media md 
+    display: none !important
+  @media sm
+    display: none !important
+  @media xs 
+    display: none !important
+
+.hidden-gt-xs 
+  @media lg
+    display: none !important
+  @media md 
+    display: none !important
+  @media sm
+    display: none !important
+
+// Visible greater than [breakpoint]
+.visible-gt-md 
+  @media lg
+    display: block !important
+.visible-md-inline 
+  @media lg
+    display: inline !important
+.visible-md-inline-block 
+  @media lg
+    display: inline-block !important
+
+.visible-gt-sm 
+  @media lg
+    display: block !important
+  @media md 
+    display: block !important
+  @media sm
+    display: block !important
+  @media xs 
+    display: none !important
+
+.visible-gt-sm-inline
+  @media lg
+    display: inline !important
+  @media md 
+    display: inline !important
+  @media sm
+    display: inline !important
+  @media xs 
+    display: none !important
+
+.visible-gt-sm-inline-block
+  @media lg
+    display: inline-block !important
+  @media md 
+    display: inline-block !important
+  @media sm
+    display: inline-block !important
+  @media xs 
+    display: none !important
+
+.visible-gt-xs 
+  @media lg
+    display: block !important
+  @media md 
+    display: block !important
+  @media sm
+    display: block !important
+
+.visible-gt-xs-inline 
+  @media lg
+    display: inline !important
+  @media md 
+    display: inline !important
+  @media sm
+    display: inline !important
+
+.visible-gt-xs-inline-block 
+  @media lg
+    display: inline-block !important
+  @media md 
+    display: inline-block !important
+  @media sm
+    display: inline-block !important
