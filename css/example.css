@@ -285,6 +285,7 @@ body:after {
   right: 5px;
   background: #000;
   color: #fff;
+  z-index: 999;
 }
 @media (min-width: 1200px) {
   body:after {
