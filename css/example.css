@@ -390,18 +390,19 @@ html {
   left: 50%;
   margin: -200px 0 0 -200px;
   border-radius: 999px;
+  background: #000;
 }
-@media (min-width: 1119px) {
+@media (max-width: 1199px) {
   .example .child {
     background: #00f;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
   .example .child {
     background: #ffa500;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .example .child {
     background: #008000;
   }
