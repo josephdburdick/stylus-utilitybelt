@@ -1,6 +1,9 @@
 Stylus Utility Belt
 =========
 ### Shorthand Media Queries, Inline Class Triggers, & Breakpoint Inspector for Stylus.
+
+[View Demo on Codepen](http://cdpn.io/vtcwL)
+
 Built with love by [JOEY](http://joeylabs.com) while working at [Carrot](http://carrot.is). 
 
 #### What's inside?
