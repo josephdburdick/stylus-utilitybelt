@@ -117,7 +117,23 @@
   @media xs 
     display: none !important
 
+.hidden-gt-sm-inline
+  display: inline-block
+  @media lg
+    display: none !important
+  @media md 
+    display: none !important
+
 .hidden-gt-xs 
+  @media lg
+    display: none !important
+  @media md 
+    display: none !important
+  @media sm
+    display: none !important
+    
+.hidden-gt-xs-inline
+  display: inline-block 
   @media lg
     display: none !important
   @media md 
